@@ -1,0 +1,26 @@
+#similares
+{
+  border-left:1px solid;
+  border-color: #E8E8E8;
+  height: 100%;
+}
+
+.more-link
+{
+  margin-top: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.aligncenter
+{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.more-link:hover
+{
+  color: white;
+}

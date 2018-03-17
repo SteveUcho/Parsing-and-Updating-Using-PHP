@@ -1,0 +1,233 @@
+a
+{
+  text-decoration: none;
+  color: #2A7BCC;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #2A7BCC;
+}
+ #head-banner
+{
+  background-image: url(https://www.figurescreed.moe/wp-content/uploads/2016/09/Banner-1.png);
+  background-size: cover;
+  height: 90px;
+  width: 100%;
+}
+
+#header {
+	height:280px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+.jumbotron
+{
+  height: 90vh;
+  background-image: url(https://moonlitsaki.com/wp-content/uploads/2017/02/myethos_holopo-1.jpg);
+  background-attachment: fixed;
+  background-blend-mode:multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+#jumbotron-text
+{
+  padding-top: 15vh;
+  color: aliceblue;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100)
+  
+.slider-wrap {
+  width: 100%;
+  height: 50vh;
+  margin: 20px auto;
+}
+
+.slider {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.holder {
+  width: 400000px;
+}
+
+.slide {
+  float: left;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-position: -100px 0;
+}
+
+.temp {
+  position: absolute;
+  color: #2A7BCC;
+  font-size: 2.6rem;
+  font-weight: 500;
+  bottom: 15px;
+  left: 5px;
+}
+
+#slide-0 {
+  width: 100%;
+  background-image: url(https://d3ieicw58ybon5.cloudfront.net/ex/800.532/project_description/f962f141e5df4e7caffa3fa801074032.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#slide-1 {
+  width: 100%;
+  background-image: url(/images/23314085_1345221538939056_1507001035_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#slide-2 {
+  width: 100%;
+  background-image: url(/images/23335716_1345221512272392_329443378_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#slide-3 {
+  width: 100%;
+  background-image: url(/images/23335911_1345221258939084_1298375568_o.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  background: linear-gradient(transparent, white);
+}
+
+.slider-nav {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: -25px 0 0 0;
+}
+
+.slider-nav a {
+  width: 40px;
+  height: 10px;
+  display: inline-block;
+  background: white;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 10%;
+  border: .5px solid #2A7BCC;
+}
+
+.slider-nav a.active {
+  background: #2A7BCC;
+}
+
+#titles
+{
+  padding-bottom: 6px;
+  color: #2A7BCC;
+}
+
+.navbar-toggler
+{
+  color: #2A7BCC;
+}
+
+.btn
+{
+  color: aliceblue;
+  background-color: #2A7BCC;
+  border-color: aliceblue;
+}
+
+.btn:hover
+{
+  background-color: #2A7BCC;
+  border-color: aliceblue;
+}
+
+.fb-page
+{
+    width: 100%;
+}
+
+#img-here
+{
+    width: 100%;
+    padding-top: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#title
+{
+    font-size: 1.7em;
+}
+
+#title-here
+{
+    height: 5.6em;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-bottom: 1vh;
+}
+
+#foot-ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#foot-ul li
+{
+    float: left;
+    padding-left: 5px;
+}
+
+#twit
+{
+    padding-top: 4px;
+}
+
+#auth
+{
+    text-align: right;
+}
+
+.item
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.vermas
+{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
